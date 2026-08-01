@@ -1,0 +1,90 @@
+body{
+    color:blue;
+}
+
+.mainHeader{
+    width:100vw;
+     background-image: linear-gradient(to right, #eded18 0%, #e67920);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.outer-wrapper{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerText{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin:0;
+}
+
+.cardsWrapper{
+    display:inline-grid;
+    width:80vw;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 1vw;
+    align-items: center;
+    justify-items: center;
+
+}
+
+.cardContainer{
+    width:15vw;
+    height:15vw;
+    margin:3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-color: transparent;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    perspective: 1000px;
+    border-radius: 20px;
+
+}
+.cardContainer:hover{
+    border:4px gold solid;
+    transform: rotateY(180deg);
+     -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+}
+
+.front, .back{
+    width:100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid rebeccapurple;
+    border-radius: 20px;
+}
+
+.cardContainer>.front{
+    color:red;
+    position:absolute;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+.cardContainer>.back{
+    color:green;
+    border:4px gold solid;
+    position:absolute;
+    transform:rotateY(180deg);
+     -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back>h2{
+    margin:0;
+    text-align: center;
+}
