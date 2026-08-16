@@ -4,7 +4,6 @@ body{
 
 .mainHeader{
     width:100vw;
-     background-image: linear-gradient(to right, #eded18 0%, #e67920);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,23 +18,37 @@ body{
 }
 
 .headerText{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    margin:0;
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-size: 50px;
+  font-style: normal;
+  margin:0;
+  color: #4B0082;
+  background-image: radial-gradient(
+    circle at 10% 10%,
+    #4B0082 ,
+    #8F00FF 25%,
+    #D400FF 50%,
+    #FF00C8 75%,
+    #FF1493 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .cardsWrapper{
     display:inline-grid;
-    width:80vw;
+    width:60vw;
     grid-template-columns: repeat(4,1fr);
-    column-gap: 1vw;
     align-items: center;
     justify-items: center;
 
 }
 
 .cardContainer{
-    width:15vw;
-    height:15vw;
+    width:10vw;
+    height:10vw;
     margin:3px;
     display: flex;
     justify-content: center;
@@ -48,6 +61,7 @@ body{
     border-radius: 20px;
 
 }
+
 .cardContainer:hover{
     border:4px gold solid;
     transform: rotateY(180deg);
