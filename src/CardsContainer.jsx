@@ -1,19 +1,36 @@
+import { useState } from "react";
 import { Card } from "./Card";
+import { shuffle } from "fast-shuffle";
 import data from "./assets/questions.json";
 export const CardsContainer = () => {
   // console.log("Logging Data :", data);
-  const questionSet = data[0].questionSet;
-  console.log("Question Set:", questionSet);
+
+  const handleClick = (e) => {
+    console.log("Click has occured");
+    console.log(e);
+  };
+
+  const [questionSet, setQuestionSet] = useState(data[0].questionSet);
+
+  console.log("The questions array :", questionSet);
 
   const questionMap = questionSet.map((q) => {
-    return <Card text={q.question} key={q.pairId} />;
+    return <Card text={q.question} key={q.pairId} handleClick={handleClick} />;
   });
 
   const answerMap = questionSet.map((a) => {
-    return <Card text={a.answer} key={parseInt(a.pairId) * 10} />;
+    return (
+      <Card
+        text={a.answer}
+        key={parseInt(a.pairId) * 10}
+        handleClick={handleClick}
+      />
+    );
   });
 
-  const combinedCards = [...answerMap, ...questionMap];
+  let combinedCards = [...answerMap, ...questionMap];
+
+  //combinedCards = shuffle(combinedCards);
 
   return <main className="cardsWrapper">{combinedCards}</main>;
 };
