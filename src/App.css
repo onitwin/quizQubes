@@ -62,7 +62,7 @@ body{
 
 }
 
-.cardContainer:hover{
+.flipped{
     border:4px gold solid;
     transform: rotateY(180deg);
      -webkit-backface-visibility: hidden; /* Safari */

@@ -6,8 +6,7 @@ export const CardsContainer = () => {
   // console.log("Logging Data :", data);
 
   const handleClick = (e) => {
-    console.log("Click has occured");
-    console.log(e);
+    document.querySelector("#" + e).classList.toggle("flipped");
   };
 
   const [questionSet, setQuestionSet] = useState(data[0].questionSet);
@@ -15,7 +14,14 @@ export const CardsContainer = () => {
   console.log("The questions array :", questionSet);
 
   const questionMap = questionSet.map((q) => {
-    return <Card text={q.question} key={q.pairId} handleClick={handleClick} />;
+    return (
+      <Card
+        text={q.question}
+        key={q.pairId}
+        id={"questionCard" + q.pairId}
+        handleClick={handleClick}
+      />
+    );
   });
 
   const answerMap = questionSet.map((a) => {
@@ -23,6 +29,7 @@ export const CardsContainer = () => {
       <Card
         text={a.answer}
         key={parseInt(a.pairId) * 10}
+        id={"answerCard" + a.pairId}
         handleClick={handleClick}
       />
     );
