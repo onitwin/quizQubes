@@ -1,11 +1,6 @@
-export const Card = ({ text, handleClick, id, key }) => {
+export const Card = ({ text, handleClick, id }) => {
   return (
-    <div
-      className="cardContainer"
-      key={key}
-      id={id}
-      onClick={() => handleClick(id)}
-    >
+    <div className="cardContainer" id={id} onClick={() => handleClick(id)}>
       <div className="front"></div>
       <div className="back">
         <h2>{text}</h2>
