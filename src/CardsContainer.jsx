@@ -8,23 +8,27 @@ export const CardsContainer = () => {
   const handleClick = (e) => {
     document.querySelector("#" + e).classList.toggle("flipped");
     submittedAnswers.current = [...submittedAnswers.current, e];
-    console.log("Answers Submitted: ", submittedAnswers.current);
     if (submittedAnswers.current.length === 2) {
       if (
         submittedAnswers.current[0].at(-1) ===
         submittedAnswers.current[1].at(-1)
       ) {
-        console.log("Correct Answer");
         submittedAnswers.current = [];
-      } else if (submittedAnswers.current.length === 2) {
-        console.log("incorrect Answer");
-        document
-          .querySelector("#" + submittedAnswers.current[0])
-          .classList.toggle("flipped");
-        document
-          .querySelector("#" + submittedAnswers.current[1])
-          .classList.toggle("flipped");
-        submittedAnswers.current = [];
+      } else if (
+        submittedAnswers.current.length === 2 &&
+        submittedAnswers.current[0].at(-1) !==
+          submittedAnswers.current[1].at(-1)
+      ) {
+        console.log("FAILURE");
+        const timeoutSet = setTimeout(() => {
+          document
+            .querySelector("#" + submittedAnswers.current[0])
+            .classList.toggle("flipped");
+          document
+            .querySelector("#" + submittedAnswers.current[1])
+            .classList.toggle("flipped");
+          submittedAnswers.current = [];
+        }, 1500);
       }
     }
   };
