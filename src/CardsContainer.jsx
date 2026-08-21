@@ -5,6 +5,8 @@ import data from "./assets/questions.json";
 export const CardsContainer = () => {
   const submittedAnswers = useRef([]);
 
+  const [attempts, setAttempts] = useState(0);
+
   const handleClick = (e) => {
     document.querySelector("#" + e).classList.toggle("flipped");
     submittedAnswers.current = [...submittedAnswers.current, e];
@@ -13,13 +15,14 @@ export const CardsContainer = () => {
         submittedAnswers.current[0].at(-1) ===
         submittedAnswers.current[1].at(-1)
       ) {
+        setAttempts((prev) => prev + 1);
         submittedAnswers.current = [];
       } else if (
         submittedAnswers.current.length === 2 &&
         submittedAnswers.current[0].at(-1) !==
           submittedAnswers.current[1].at(-1)
       ) {
-        console.log("FAILURE");
+        setAttempts((prev) => prev + 1);
         const timeoutSet = setTimeout(() => {
           document
             .querySelector("#" + submittedAnswers.current[0])
@@ -33,7 +36,7 @@ export const CardsContainer = () => {
     }
   };
 
-  const [questionSet, setQuestionSet] = useState(data[1].questionSet);
+  const [questionSet, setQuestionSet] = useState(data[2].questionSet);
 
   console.log("The questions array :", questionSet);
 
@@ -63,5 +66,10 @@ export const CardsContainer = () => {
 
   combinedCards = shuffle(combinedCards);
 
-  return <main className="cardsWrapper">{combinedCards}</main>;
+  return (
+    <>
+      <main className="cardsWrapper">{combinedCards}</main>
+      <h2>Attempts:{attempts}</h2>
+    </>
+  );
 };

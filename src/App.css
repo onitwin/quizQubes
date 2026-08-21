@@ -1,104 +1,104 @@
-body{
-    color:blue;
+body {
+  color: blue;
 }
 
-.mainHeader{
-    width:100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
+.mainHeader {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-bottom: 6px;
 }
 
-.outer-wrapper{
-    width:100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.outer-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.headerText{
+.headerText {
   font-family: "Audiowide", sans-serif;
   font-weight: 400;
   font-size: 50px;
   font-style: normal;
-  margin:0;
-  color: #4B0082;
+  margin: 0;
+  color: #4b0082;
   background-image: radial-gradient(
     circle at 10% 10%,
-    #4B0082 ,
-    #8F00FF 25%,
-    #D400FF 50%,
-    #FF00C8 75%,
-    #FF1493 100%
+    #4b0082,
+    #8f00ff 25%,
+    #d400ff 50%,
+    #ff00c8 75%,
+    #ff1493 100%
   );
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.cardsWrapper{
-    display:inline-grid;
-    width:60vw;
-    grid-template-columns: repeat(4,1fr);
-    align-items: center;
-    justify-items: center;
-
+.cardsWrapper {
+  display: inline-grid;
+  width: 60vw;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-items: center;
 }
 
-.cardContainer{
-    width:10vw;
-    height:10vw;
-    margin:3px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    background-color: transparent;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-    perspective: 1000px;
-    border-radius: 20px;
-
+.cardContainer {
+  width: 10vw;
+  height: 10vw;
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: transparent;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  border-radius: 20px;
 }
 
-.flipped{
-    border:4px gold solid;
-    transform: rotateY(180deg);
-     -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
+.flipped {
+  border: 4px gold solid;
+  transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
 }
 
-.front, .back{
-    width:100%;
-    height:100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border:1px solid rebeccapurple;
-    border-radius: 20px;
+.front,
+.back {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rebeccapurple;
+  border-radius: 20px;
 }
 
-.cardContainer>.front{
-    color:red;
-    position:absolute;
-    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+.cardContainer > .front {
+  color: red;
+  position: absolute;
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 }
 
-.cardContainer>.back{
-    color:green;
-    border:4px gold solid;
-    position:absolute;
-    transform:rotateY(180deg);
-     -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-    background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.cardContainer > .back {
+  color: green;
+  border: 4px gold solid;
+  position: absolute;
+  transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  background-image: linear-gradient(to right, #43e97b 0%, #38f9d7 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.back>h2{
-    margin:0;
-    text-align: center;
+.back > h2 {
+  margin: 0;
+  text-align: center;
 }
