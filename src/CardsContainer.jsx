@@ -36,7 +36,7 @@ export const CardsContainer = () => {
     }
   };
 
-  const [questionSet, setQuestionSet] = useState(data[2].questionSet);
+  const [questionSet, setQuestionSet] = useState(data[3].questionSet);
 
   console.log("The questions array :", questionSet);
 
