@@ -87,7 +87,7 @@ body {
 
 .cardContainer > .back {
   color: green;
-  border: 4px black solid;
+  border: 2px black solid;
   position: absolute;
   transform: rotateY(180deg);
   -webkit-backface-visibility: hidden; /* Safari */
