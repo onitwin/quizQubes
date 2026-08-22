@@ -59,10 +59,10 @@ body {
   transform-style: preserve-3d;
   perspective: 1000px;
   border-radius: 20px;
+  margin: 2px;
 }
 
 .flipped {
-  border: 4px gold solid;
   transform: rotateY(180deg);
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
@@ -75,19 +75,19 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid rebeccapurple;
   border-radius: 20px;
 }
 
 .cardContainer > .front {
   color: red;
   position: absolute;
+  border: 1px solid rebeccapurple;
   background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
 }
 
 .cardContainer > .back {
   color: green;
-  border: 4px gold solid;
+  border: 4px black solid;
   position: absolute;
   transform: rotateY(180deg);
   -webkit-backface-visibility: hidden; /* Safari */
@@ -101,4 +101,14 @@ body {
 .back > h2 {
   margin: 0;
   text-align: center;
+  font-size: 18px;
+}
+
+.success {
+  background-image: linear-gradient(
+    to right,
+    #738af0 0%,
+    #203bec 100%
+  ) !important;
+  color: white !important;
 }

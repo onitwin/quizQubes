@@ -7,6 +7,35 @@ export const CardsContainer = () => {
 
   const [attempts, setAttempts] = useState(0);
 
+  // const handleClick = (e) => {
+  //   document.querySelector("#" + e).classList.toggle("flipped");
+  //   submittedAnswers.current = [...submittedAnswers.current, e];
+  //   if (submittedAnswers.current.length === 2) {
+  //     if (
+  //       submittedAnswers.current[0].at(-1) ===
+  //       submittedAnswers.current[1].at(-1)
+  //     ) {
+  //       setAttempts((prev) => prev + 1);
+  //       submittedAnswers.current = [];
+  //     } else if (
+  //       submittedAnswers.current.length === 2 &&
+  //       submittedAnswers.current[0].at(-1) !==
+  //         submittedAnswers.current[1].at(-1)
+  //     ) {
+  //       setAttempts((prev) => prev + 1);
+  //       const timeoutSet = setTimeout(() => {
+  //         document
+  //           .querySelector("#" + submittedAnswers.current[0])
+  //           .classList.toggle("flipped");
+  //         document
+  //           .querySelector("#" + submittedAnswers.current[1])
+  //           .classList.toggle("flipped");
+  //         submittedAnswers.current = [];
+  //       }, 1500);
+  //     }
+  //   }
+  // };
+
   const handleClick = (e) => {
     document.querySelector("#" + e).classList.toggle("flipped");
     submittedAnswers.current = [...submittedAnswers.current, e];
@@ -15,6 +44,13 @@ export const CardsContainer = () => {
         submittedAnswers.current[0].at(-1) ===
         submittedAnswers.current[1].at(-1)
       ) {
+        document
+          .querySelector("#" + submittedAnswers.current[0] + " .back")
+          .classList.toggle("success");
+        document
+          .querySelector("#" + submittedAnswers.current[1] + " .back")
+          .classList.toggle("success");
+        console.log("LOGGING", document.querySelector("#" + e));
         setAttempts((prev) => prev + 1);
         submittedAnswers.current = [];
       } else if (
@@ -23,7 +59,7 @@ export const CardsContainer = () => {
           submittedAnswers.current[1].at(-1)
       ) {
         setAttempts((prev) => prev + 1);
-        const timeoutSet = setTimeout(() => {
+        setTimeout(() => {
           document
             .querySelector("#" + submittedAnswers.current[0])
             .classList.toggle("flipped");
@@ -64,7 +100,7 @@ export const CardsContainer = () => {
 
   let combinedCards = [...answerMap, ...questionMap];
 
-  combinedCards = shuffle(combinedCards);
+  //combinedCards = shuffle(combinedCards);
 
   return (
     <>
