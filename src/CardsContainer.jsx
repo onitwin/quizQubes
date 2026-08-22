@@ -72,7 +72,7 @@ export const CardsContainer = () => {
     }
   };
 
-  const [questionSet, setQuestionSet] = useState(data[3].questionSet);
+  const [questionSet, setQuestionSet] = useState(data[4].questionSet);
 
   console.log("The questions array :", questionSet);
 
@@ -100,7 +100,7 @@ export const CardsContainer = () => {
 
   let combinedCards = [...answerMap, ...questionMap];
 
-  //combinedCards = shuffle(combinedCards);
+  combinedCards = shuffle(combinedCards);
 
   return (
     <>
