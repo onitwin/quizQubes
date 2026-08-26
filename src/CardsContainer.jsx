@@ -42,7 +42,7 @@ export const CardsContainer = () => {
     }
   };
 
-  const [questionSet, setQuestionSet] = useState(data[6].questionSet);
+  const [questionSet, setQuestionSet] = useState(data[4].questionSet);
 
   const questionMap = questionSet.map((q) => {
     return (
