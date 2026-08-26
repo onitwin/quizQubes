@@ -320,5 +320,51 @@
                 "answer": "Nappy"
             }
         ]
+    },
+    {
+        "date": "135",
+        "id": "7",
+        "questionSet": [
+            {
+                "pairId": "1",
+                "question": "Elvis song covered by UB40",
+                "answer": "(I Can't Help) Falling In Love With You"
+            },
+            {
+                "pairId": "2",
+                "question": "Whitney Houston Song Written By Dolly Parton",
+                "answer": "I Will Always Love You"
+            },
+            {
+                "pairId": "3",
+                "question": "Year 'Action Comics' Issue 1 was released",
+                "answer": "1938"
+            },
+            {
+                "pairId": "4",
+                "question": "Year World War II Started",
+                "answer": "1939"
+            },
+            {
+                "pairId": "5",
+                "question": "Saying: 'Once In a ____ moon'",
+                "answer": "Blue"
+            },
+            {
+                "pairId": "6",
+                "question": "Movie: 'The Hunt For ___ October",
+                "answer": "Red"
+            },
+            {
+                "pairId": "7",
+                "question": "Marvel Movie: '____ Panther'",
+                "answer": "Black"
+            },
+            {
+                "pairId": "8",
+                "question": "What is a 'Mycardial Infarction",
+                "answer": "Heart Attack"
+            }
+        ]
     }
 ]
