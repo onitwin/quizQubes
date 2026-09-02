@@ -72,9 +72,8 @@ export const CardsContainer = () => {
 
   return (
     <>
-      <h2>{data[10].description}</h2>
       <main className="cardsWrapper">{combinedCards}</main>
-      <h2>Attempts:{attempts}</h2>
+      <h2 className="attemptsDisplay">Attempts:{attempts}</h2>
     </>
   );
 };
