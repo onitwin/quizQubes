@@ -113,3 +113,25 @@ body {
   ) !important;
   color: white !important;
 }
+
+@media (width < 701px) {
+  .outer-wrapper {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cardsWrapper {
+    width: 100%;
+  }
+
+  .front,
+  .back {
+    border-radius: 10px;
+  }
+
+  .back > h2 {
+    font-size: 8px;
+  }
+}
