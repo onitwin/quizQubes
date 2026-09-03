@@ -121,6 +121,7 @@ body {
   margin: auto;
   margin-top: 20px;
 }
+
 /* styling for modal and contents*/
 .baseModal {
   width: 40vw;
@@ -190,5 +191,10 @@ body {
 
   .back > h2 {
     font-size: 10px;
+  }
+
+  .baseModal {
+    width: 90%;
+    margin-top: 40%;
   }
 }
