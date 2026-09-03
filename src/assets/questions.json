@@ -505,5 +505,52 @@
                 "answer": "..we have a problem"
             }
         ]
+    },
+    {
+        "date": "333",
+        "id": "11",
+        "description": "Pair up these song lyrics with their next lines 🎶",
+        "questionSet": [
+            {
+                "pairId": "1",
+                "question": "Whoah we're half-way there..",
+                "answer": "..Whoa oh, livin' on a prayer"
+            },
+            {
+                "pairId": "2",
+                "question": "Open up my eager eyes..",
+                "answer": "..cos I'm Mr Brightside"
+            },
+            {
+                "pairId": "3",
+                "question": "Wise men say..",
+                "answer": "..only fools rush in"
+            },
+            {
+                "pairId": "4",
+                "question": "Hey now, your an all star..",
+                "answer": "..get your game on, go play"
+            },
+            {
+                "pairId": "5",
+                "question": "So darlin, darlin..",
+                "answer": "..stand by me"
+            },
+            {
+                "pairId": "6",
+                "question": "I wanna live like common people...",
+                "answer": "..I wanna do whatever common people do"
+            },
+            {
+                "pairId": "7",
+                "question": "Welcome to the..",
+                "answer": "..Hotel California!"
+            },
+            {
+                "pairId": "8",
+                "question": "Tonight we're gonna party..",
+                "answer": "..like it's 1999"
+            }
+        ]
     }
 ]
