@@ -2,6 +2,7 @@ import { useState, useRef } from "react";
 import { Card } from "./Card";
 import { shuffle } from "fast-shuffle";
 import data from "./assets/questions.json";
+import { ReusableModal } from "./ReusableModal";
 export const CardsContainer = () => {
   const submittedAnswers = useRef([]);
 
@@ -72,6 +73,7 @@ export const CardsContainer = () => {
 
   return (
     <>
+      <ReusableModal text={data[11].description} />
       <main className="cardsWrapper">{combinedCards}</main>
       <h2 className="attemptsDisplay">Attempts:{attempts}</h2>
     </>
