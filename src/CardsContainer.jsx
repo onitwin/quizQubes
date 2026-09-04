@@ -43,7 +43,7 @@ export const CardsContainer = () => {
     }
   };
 
-  const [questionSet, setQuestionSet] = useState(data[11].questionSet);
+  const [questionSet, setQuestionSet] = useState(data[12].questionSet);
 
   const questionMap = questionSet.map((q) => {
     return (
@@ -73,7 +73,7 @@ export const CardsContainer = () => {
 
   return (
     <>
-      <ReusableModal text={data[11].description} />
+      <ReusableModal text={data[12].description} />
       <main className="cardsWrapper">{combinedCards}</main>
       <h2 className="attemptsDisplay">Attempts:{attempts}</h2>
     </>

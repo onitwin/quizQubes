@@ -508,7 +508,7 @@
     },
     {
         "date": "333",
-        "id": "11",
+        "id": "12",
         "description": "Easy one today - Pair up these song lyrics with their next lines 🎶",
         "questionSet": [
             {
@@ -550,6 +550,53 @@
                 "pairId": "8",
                 "question": "Tonight we're gonna party..",
                 "answer": "..like it's 1999"
+            }
+        ]
+    },
+    {
+        "date": "444",
+        "id": "13",
+        "description": "Standard quiz - match the question with its answer - beware, some pairs look correct but there is only one true match!",
+        "questionSet": [
+            {
+                "pairId": "1",
+                "question": "Currency of France before adoption of the Euro",
+                "answer": "Franc"
+            },
+            {
+                "pairId": "2",
+                "question": "First name of singer Mr Sinatra",
+                "answer": "Frank"
+            },
+            {
+                "pairId": "3",
+                "question": "Markings or stamps applied to postage",
+                "answer": "Franks"
+            },
+            {
+                "pairId": "4",
+                "question": "Site of Italy's famous leaning tower",
+                "answer": "Pisa"
+            },
+            {
+                "pairId": "5",
+                "question": "Traditionally circular food topped with tomato based sauce and cheese",
+                "answer": "Pizza"
+            },
+            {
+                "pairId": "6",
+                "question": "Process by which plants convert carbon dioxide into oxygen",
+                "answer": "Photosynthesis"
+            },
+            {
+                "pairId": "7",
+                "question": "Who was UK Prime Minister at outbreak of World War II",
+                "answer": "Neville Chamberlain"
+            },
+            {
+                "pairId": "8",
+                "question": "Losing team of 1966 World Cup",
+                "answer": "West Germany"
             }
         ]
     }
