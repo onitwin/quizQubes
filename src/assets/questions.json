@@ -94,6 +94,7 @@
     {
         "date": "789",
         "id": "3",
+        "description": "Standard quiz - match the question with its answer - beware, some pairs look correct but there is only one true match!",
         "questionSet": [
             {
                 "pairId": "1",
@@ -112,7 +113,7 @@
             },
             {
                 "pairId": "4",
-                "question": "A little bit of ____ in my life",
+                "question": "Song Lyrics: 'A little bit of ____ in my life'",
                 "answer": "Monica"
             },
             {
