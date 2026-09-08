@@ -3,42 +3,37 @@ import { Card } from "./Card";
 import { shuffle } from "fast-shuffle";
 import data from "./assets/questions.json";
 import { ReusableModal } from "./ReusableModal";
+import { updateClasses } from "./helperFunctions/handlers";
 export const CardsContainer = () => {
   const submittedAnswers = useRef([]);
 
   const [attempts, setAttempts] = useState(0);
 
   const handleClick = (e) => {
-    document.querySelector("#" + e).classList.toggle("flipped");
-    submittedAnswers.current = [...submittedAnswers.current, e];
-    if (submittedAnswers.current.length === 2) {
-      if (
-        submittedAnswers.current[0].at(-1) ===
-        submittedAnswers.current[1].at(-1)
-      ) {
-        document
-          .querySelector("#" + submittedAnswers.current[0] + " .back")
-          .classList.toggle("success");
-        document
-          .querySelector("#" + submittedAnswers.current[1] + " .back")
-          .classList.toggle("success");
-        setAttempts((prev) => prev + 1);
-        submittedAnswers.current = [];
-      } else if (
-        submittedAnswers.current.length === 2 &&
-        submittedAnswers.current[0].at(-1) !==
+    if (submittedAnswers.current.length <= 1) {
+      updateClasses(e, "flipped");
+      submittedAnswers.current = [...submittedAnswers.current, e];
+      if (submittedAnswers.current.length === 2) {
+        if (
+          submittedAnswers.current[0].at(-1) ===
           submittedAnswers.current[1].at(-1)
-      ) {
-        setAttempts((prev) => prev + 1);
-        setTimeout(() => {
-          document
-            .querySelector("#" + submittedAnswers.current[0])
-            .classList.toggle("flipped");
-          document
-            .querySelector("#" + submittedAnswers.current[1])
-            .classList.toggle("flipped");
+        ) {
+          updateClasses(submittedAnswers.current[0] + " .back", "success");
+          updateClasses(submittedAnswers.current[1] + " .back", "success");
+          setAttempts((prev) => prev + 1);
           submittedAnswers.current = [];
-        }, 1500);
+        } else if (
+          submittedAnswers.current.length === 2 &&
+          submittedAnswers.current[0].at(-1) !==
+            submittedAnswers.current[1].at(-1)
+        ) {
+          setAttempts((prev) => prev + 1);
+          setTimeout(() => {
+            updateClasses(submittedAnswers.current[0], "flipped");
+            updateClasses(submittedAnswers.current[1], "flipped");
+            submittedAnswers.current = [];
+          }, 1500);
+        }
       }
     }
   };
