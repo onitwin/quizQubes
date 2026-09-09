@@ -648,5 +648,52 @@
                 "answer": "DC Comics"
             }
         ]
+    },
+    {
+        "date": "666",
+        "id": "15",
+        "description": "Standard quiz - match the question with its answer - beware, some pairs look correct but there is only one true match!",
+        "questionSet": [
+            {
+                "pairId": "1",
+                "question": "Prize from 'Acadamy Awards' yearly ceremony",
+                "answer": "Oscar"
+            },
+            {
+                "pairId": "2",
+                "question": "Doomed Shakespeare hero",
+                "answer": "Romeo"
+            },
+            {
+                "pairId": "3",
+                "question": "Tiger Woods sport",
+                "answer": "Golf"
+            },
+            {
+                "pairId": "4",
+                "question": "Letter in NATO phonetic alphabet",
+                "answer": "Foxtrot"
+            },
+            {
+                "pairId": "5",
+                "question": "Ballroom dance style originating from Buenos Aires",
+                "answer": "Tango"
+            },
+            {
+                "pairId": "6",
+                "question": "Small town lacking church, school or shops",
+                "answer": "Hamlet"
+            },
+            {
+                "pairId": "7",
+                "question": "First name of main character in 'The Sopranos'",
+                "answer": "Tony"
+            },
+            {
+                "pairId": "8",
+                "question": "Supermini Volkswagen car model",
+                "answer": "Polo"
+            }
+        ]
     }
 ]
