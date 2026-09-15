@@ -742,5 +742,52 @@
                 "answer": "Macarena"
             }
         ]
+    },
+    {
+        "date": "888",
+        "id": "17",
+        "description": "Back to school!- match the question with its answer - beware, some pairs look correct but there is only one true match!",
+        "questionSet": [
+            {
+                "pairId": "1",
+                "question": "Role of a king",
+                "answer": "Ruler"
+            },
+            {
+                "pairId": "2",
+                "question": "Description of group of identical objects",
+                "answer": "Uniform"
+            },
+            {
+                "pairId": "3",
+                "question": "Romantic movie staring Ryan Gosling and Rachel McAdams",
+                "answer": "The Notebook"
+            },
+            {
+                "pairId": "4",
+                "question": "Muppet partner of Beaker",
+                "answer": "Bunsen"
+            },
+            {
+                "pairId": "5",
+                "question": "Geographical landform from glacial deposition",
+                "answer": "Drumlin"
+            },
+            {
+                "pairId": "6",
+                "question": "Long from of term 'DNA",
+                "answer": "Deoxyribonucleic Acid"
+            },
+            {
+                "pairId": "7",
+                "question": "Current title of 'The Millenium Dome'",
+                "answer": "The O2"
+            },
+            {
+                "pairId": "8",
+                "question": "Term referring to black, tar like substance",
+                "answer": "Pitch"
+            }
+        ]
     }
 ]
