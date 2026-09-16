@@ -789,5 +789,52 @@
                 "answer": "Pitch"
             }
         ]
+    },
+    {
+        "date": "999",
+        "id": "18",
+        "description": "Initially Answered! - Match the question with its answer - beware, some pairs look correct but there is only one true match!",
+        "questionSet": [
+            {
+                "pairId": "1",
+                "question": "Band named for stage of sleep",
+                "answer": "R.E.M"
+            },
+            {
+                "pairId": "2",
+                "question": "UK Television Company",
+                "answer": "BBC"
+            },
+            {
+                "pairId": "3",
+                "question": "Band featuring Professor Brian Cox",
+                "answer": "D:Ream"
+            },
+            {
+                "pairId": "4",
+                "question": "Body scan process",
+                "answer": "MRI"
+            },
+            {
+                "pairId": "5",
+                "question": "Medical test for hearts current",
+                "answer": "ECG"
+            },
+            {
+                "pairId": "6",
+                "question": "Abbreviation for Ribonucleic Acid",
+                "answer": "RNA"
+            },
+            {
+                "pairId": "7",
+                "question": "90's band that 'don't want no scrubs'!'",
+                "answer": "TLC"
+            },
+            {
+                "pairId": "8",
+                "question": "Quiz show hosted by Sandi Toksvig",
+                "answer": "QI"
+            }
+        ]
     }
 ]
