@@ -4,6 +4,7 @@ import { shuffle } from "fast-shuffle";
 import data from "./assets/questions.json";
 import { ReusableModal } from "./ReusableModal";
 import { updateClasses } from "./helperFunctions/handlers";
+import { FooterContainer } from "./FooterContainer";
 export const CardsContainer = () => {
   const submittedAnswers = useRef([]);
 
@@ -71,6 +72,7 @@ export const CardsContainer = () => {
       <ReusableModal text={data[17].description} />
       <main className="cardsWrapper">{combinedCards}</main>
       <h2 className="attemptsDisplay">Attempts:{attempts}</h2>
+      <FooterContainer />
     </>
   );
 };

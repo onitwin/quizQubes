@@ -165,6 +165,31 @@ body {
   border: 1px solid white;
 }
 
+.customFooter {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  padding: 4px;
+  height: 3rem;
+}
+
+.socialsLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  padding: 3px;
+}
+
+.linkIcons {
+  height: 2rem;
+}
+
+.linkIcons:hover {
+  height: 3rem;
+}
 /* styling for smaller display sizes */
 
 @media (width < 701px) {
