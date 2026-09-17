@@ -165,6 +165,8 @@ body {
   border: 1px solid white;
 }
 
+/* footer styling */
+
 .customFooter {
   width: 100%;
   position: fixed;
@@ -190,6 +192,7 @@ body {
 .linkIcons:hover {
   height: 3rem;
 }
+
 /* styling for smaller display sizes */
 
 @media (width < 701px) {
