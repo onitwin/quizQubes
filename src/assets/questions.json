@@ -874,13 +874,60 @@
             },
             {
                 "pairId": "7",
-                "question": "First novel featuring Miss Marple'",
+                "question": "First novel featuring Miss Marple",
                 "answer": "The Murder At the Vicarage"
             },
             {
                 "pairId": "8",
                 "question": "City hosting the 2028 Olympics",
                 "answer": "Los Angeles"
+            }
+        ]
+    },
+    {
+        "date": "2222",
+        "id": "20",
+        "description": "Dots and Dashes! - Match the question with its answer - beware, some pairs look correct but there is only one true match!",
+        "questionSet": [
+            {
+                "pairId": "1",
+                "question": "Morse code for 'E'",
+                "answer": "."
+            },
+            {
+                "pairId": "2",
+                "question": "Name of speedy 'Incredibles' character",
+                "answer": "Dash"
+            },
+            {
+                "pairId": "3",
+                "question": "Morse code for 'T'",
+                "answer": "-"
+            },
+            {
+                "pairId": "4",
+                "question": "Guitarist in 'Guns N' Roses'",
+                "answer": "Slash"
+            },
+            {
+                "pairId": "5",
+                "question": "Eastenders Character ' ___ Cotton'",
+                "answer": "Dot"
+            },
+            {
+                "pairId": "6",
+                "question": "Punctuation used to split two options e.g. 'Up and Down'",
+                "answer": "/"
+            },
+            {
+                "pairId": "7",
+                "question": "Semicolon",
+                "answer": ";"
+            },
+            {
+                "pairId": "8",
+                "question": "Longest part of the intestine",
+                "answer": "Colon"
             }
         ]
     }
