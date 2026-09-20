@@ -930,5 +930,52 @@
                 "answer": "Colon"
             }
         ]
+    },
+    {
+        "date": "3333",
+        "id": "21",
+        "description": "Standard quiz - match the question with its answer - beware, some pairs look correct but there is only one true match!",
+        "questionSet": [
+            {
+                "pairId": "1",
+                "question": "First President of South Africa - 'Nelson ___'",
+                "answer": "Mandela"
+            },
+            {
+                "pairId": "2",
+                "question": "Effect claimed by deoderant advertisement",
+                "answer": "Lynx"
+            },
+            {
+                "pairId": "3",
+                "question": "Term for simplist explanation being the most likely",
+                "answer": "Ocham's Razor"
+            },
+            {
+                "pairId": "4",
+                "question": "Term for Bi-annual doubling of transistors on microchip",
+                "answer": "Moore's Law"
+            },
+            {
+                "pairId": "5",
+                "question": "Complex geometric design used in Hindu and Buddhist art",
+                "answer": "Mandala"
+            },
+            {
+                "pairId": "6",
+                "question": "Large wild cat species",
+                "answer": "Puma"
+            },
+            {
+                "pairId": "7",
+                "question": "Observed conditioned behavior in his dogs 'Ivan ___",
+                "answer": "Pavlov"
+            },
+            {
+                "pairId": "8",
+                "question": "Meringue based desert",
+                "answer": "Pavlova"
+            }
+        ]
     }
 ]
