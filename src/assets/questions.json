@@ -977,5 +977,52 @@
                 "answer": "Pavlova"
             }
         ]
+    },
+    {
+        "date": "4444",
+        "id": "22",
+        "description": "Advertising Slogans - Match the slogan with the product or complete the slogan. There are also a few unrelated questions to add confusion!",
+        "questionSet": [
+            {
+                "pairId": "1",
+                "question": "Happiness is a cigar called _____",
+                "answer": "Hamlet"
+            },
+            {
+                "pairId": "2",
+                "question": "Single-word titled Shakespeare play",
+                "answer": "Macbeth"
+            },
+            {
+                "pairId": "3",
+                "question": "The Best a Man Can Get",
+                "answer": "Gillette"
+            },
+            {
+                "pairId": "4",
+                "question": "Last name of magician 'Penn' from 'Penn and Teller",
+                "answer": "Jillette"
+            },
+            {
+                "pairId": "5",
+                "question": "I'm Lovin' It",
+                "answer": "McDonalds"
+            },
+            {
+                "pairId": "6",
+                "question": "Impossible is Nothing",
+                "answer": "Addidas"
+            },
+            {
+                "pairId": "7",
+                "question": "Greek goddess of Victory",
+                "answer": "Nike"
+            },
+            {
+                "pairId": "8",
+                "question": "Taste the rainbow",
+                "answer": "Skittles"
+            }
+        ]
     }
 ]
