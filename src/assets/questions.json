@@ -1011,7 +1011,7 @@
             {
                 "pairId": "6",
                 "question": "Impossible is Nothing",
-                "answer": "Addidas"
+                "answer": "Adidas"
             },
             {
                 "pairId": "7",
@@ -1069,6 +1069,53 @@
                 "pairId": "8",
                 "question": "Word that can precede wind, work and stock to form new word",
                 "answer": "Wood"
+            }
+        ]
+    },
+    {
+        "date": "6666",
+        "id": "24",
+        "description": "Standard quiz - match the question with its answer - beware, some pairs look correct but there is only one true match!",
+        "questionSet": [
+            {
+                "pairId": "1",
+                "question": "Author of 'On the Origin of Species'",
+                "answer": "Charles Darwin"
+            },
+            {
+                "pairId": "2",
+                "question": "City home to NFL team 'The ______ 49ers",
+                "answer": "San Francisco"
+            },
+            {
+                "pairId": "3",
+                "question": "Pokemon which evolves into Charizard",
+                "answer": "Charmander"
+            },
+            {
+                "pairId": "4",
+                "question": "George,Jane, Judy and Elroy are from which cartoon family?",
+                "answer": "The Jetsons"
+            },
+            {
+                "pairId": "5",
+                "question": "Winner of 2026 'Best Picture' Oscar",
+                "answer": "One Battle After Another"
+            },
+            {
+                "pairId": "6",
+                "question": "Mascot for Kellog's Frosties",
+                "answer": "Tony the Tiger"
+            },
+            {
+                "pairId": "7",
+                "question": "Final battle of Lord Nelson",
+                "answer": "Battle of Trafalgar"
+            },
+            {
+                "pairId": "8",
+                "question": "A Puggle is a dog bred from a pug and which other breed?",
+                "answer": "Beagle"
             }
         ]
     }
