@@ -1118,5 +1118,52 @@
                 "answer": "Beagle"
             }
         ]
+    },
+    {
+        "date": "7777",
+        "id": "25",
+        "description": "Standard quiz - match the question with its answer - beware, some pairs look correct but there is only one true match!",
+        "questionSet": [
+            {
+                "pairId": "1",
+                "question": "Hava a ____, have. Kit-Kat",
+                "answer": "Break"
+            },
+            {
+                "pairId": "2",
+                "question": "Third release from Madonnas first album",
+                "answer": "Holiday"
+            },
+            {
+                "pairId": "3",
+                "question": "Set absense from work or school for travel and leisure",
+                "answer": "Vacation"
+            },
+            {
+                "pairId": "4",
+                "question": "To stumble or fall",
+                "answer": "Trip"
+            },
+            {
+                "pairId": "5",
+                "question": "Band with hit song 'Don't stop believing'",
+                "answer": "Journey"
+            },
+            {
+                "pairId": "6",
+                "question": "Frankie Say _____",
+                "answer": "Relax"
+            },
+            {
+                "pairId": "7",
+                "question": "NATO phonetic alphabet 'H'",
+                "answer": "Hotel"
+            },
+            {
+                "pairId": "8",
+                "question": "What type of machine is 'Air Force One'",
+                "answer": "Aeroplane"
+            }
+        ]
     }
 ]
