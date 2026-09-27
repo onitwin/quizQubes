@@ -1165,5 +1165,52 @@
                 "answer": "Aeroplane"
             }
         ]
+    },
+    {
+        "date": "8888",
+        "id": "26",
+        "description": "Colourful Quiz!- match the question with its answer - beware, some pairs look correct but there is only one true match!",
+        "questionSet": [
+            {
+                "pairId": "1",
+                "question": "Antony Costa was a member of which boyband?",
+                "answer": "Blue"
+            },
+            {
+                "pairId": "2",
+                "question": "Default protaganist in Pokemon Red,Green,Blue and Yellow",
+                "answer": "Red"
+            },
+            {
+                "pairId": "3",
+                "question": "Colour associated with envy",
+                "answer": "Green"
+            },
+            {
+                "pairId": "4",
+                "question": "Alternative name for chalk board - '____ Board'",
+                "answer": "Black"
+            },
+            {
+                "pairId": "5",
+                "question": "Associated with cowardice",
+                "answer": "Yellow"
+            },
+            {
+                "pairId": "6",
+                "question": "British rock band 'Deep ____'",
+                "answer": "Purple"
+            },
+            {
+                "pairId": "7",
+                "question": "Surname of 'Walter' from 'Breaking Bad'",
+                "answer": "White"
+            },
+            {
+                "pairId": "8",
+                "question": "Colour named for a fruit",
+                "answer": "Orange"
+            }
+        ]
     }
 ]

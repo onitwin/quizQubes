@@ -5,6 +5,7 @@ import data from "./assets/questions.json";
 import { ReusableModal } from "./ReusableModal";
 import { updateClasses } from "./helperFunctions/handlers";
 import { FooterContainer } from "./FooterContainer";
+
 export const CardsContainer = () => {
   const submittedAnswers = useRef([]);
 
@@ -39,7 +40,7 @@ export const CardsContainer = () => {
     }
   };
 
-  const [questionSet, setQuestionSet] = useState(data[24].questionSet);
+  const [questionSet, setQuestionSet] = useState(data[25].questionSet);
 
   const questionMap = questionSet.map((q) => {
     return (
@@ -69,7 +70,7 @@ export const CardsContainer = () => {
 
   return (
     <>
-      <ReusableModal text={data[24].description} />
+      <ReusableModal text={data[25].description} />
       <main className="cardsWrapper">{combinedCards}</main>
       <h2 className="attemptsDisplay">Attempts:{attempts}</h2>
       <FooterContainer />
