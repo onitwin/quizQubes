@@ -1212,5 +1212,52 @@
                 "answer": "Orange"
             }
         ]
+    },
+    {
+        "date": "9999",
+        "id": "27",
+        "description": "Colourful Quiz 2!!- match the question with its answer - beware, some pairs look correct but there is only one true match!",
+        "questionSet": [
+            {
+                "pairId": "1",
+                "question": "Former UK Prime Minister 'Gordon ____'",
+                "answer": "Brown"
+            },
+            {
+                "pairId": "2",
+                "question": "Singer of 'There You Go' and 'So What'",
+                "answer": "Pink"
+            },
+            {
+                "pairId": "3",
+                "question": "Who is missing?: Charlie, Augustus, Veruca and Mike",
+                "answer": "Violet"
+            },
+            {
+                "pairId": "4",
+                "question": "Parrot species known for its intelligence and mimicry",
+                "answer": "Gray"
+            },
+            {
+                "pairId": "5",
+                "question": "Colour representing 'Gold' in heraldry",
+                "answer": "Yellow"
+            },
+            {
+                "pairId": "6",
+                "question": "Colour defined as half-way between Green and Yellow",
+                "answer": "Chartreuse"
+            },
+            {
+                "pairId": "7",
+                "question": "Colour opposite to 'Red' in the colour wheel'",
+                "answer": "Green"
+            },
+            {
+                "pairId": "8",
+                "question": "Colour of light formed from combination of all other colours",
+                "answer": "White"
+            }
+        ]
     }
 ]
