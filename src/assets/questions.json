@@ -1259,5 +1259,52 @@
                 "answer": "White"
             }
         ]
+    },
+    {
+        "date": "12345",
+        "id": "28",
+        "description": "Dun dun, dun dun!- Questions with a shark theme! Every answer is a species of shark",
+        "questionSet": [
+            {
+                "pairId": "1",
+                "question": "Tina Fey character in '30 Rock' - 'Liz ____'",
+                "answer": "Lemon"
+            },
+            {
+                "pairId": "2",
+                "question": "Large striped cat feature in 'Life of Pi'",
+                "answer": "Tiger"
+            },
+            {
+                "pairId": "3",
+                "question": "Homophone for 'wail'",
+                "answer": "Whale"
+            },
+            {
+                "pairId": "4",
+                "question": "Spider-man villain 'Green ____'",
+                "answer": "Goblin"
+            },
+            {
+                "pairId": "5",
+                "question": "Semi-aquatic reptile",
+                "answer": "Crocodile"
+            },
+            {
+                "pairId": "6",
+                "question": "Large cat with mottled fur",
+                "answer": "Leopard"
+            },
+            {
+                "pairId": "7",
+                "question": "Worlds largest island and territory of Denmark",
+                "answer": "Greenland"
+            },
+            {
+                "pairId": "8",
+                "question": "A male cow",
+                "answer": "Bull"
+            }
+        ]
     }
 ]
