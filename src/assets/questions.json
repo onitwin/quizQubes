@@ -1306,5 +1306,52 @@
                 "answer": "Bull"
             }
         ]
+    },
+    {
+        "date": "67890",
+        "id": "29",
+        "description": "Standard quiz - match the question with its answer - beware, some pairs look correct but there is only one true match!",
+        "questionSet": [
+            {
+                "pairId": "1",
+                "question": "To skip or frolic playfully",
+                "answer": "Gambol"
+            },
+            {
+                "pairId": "2",
+                "question": "To place a wager in hopes of winning money",
+                "answer": "Gamble"
+            },
+            {
+                "pairId": "3",
+                "question": "Long stick for jostling fireplace contents",
+                "answer": "Poker"
+            },
+            {
+                "pairId": "4",
+                "question": "Common casino card game",
+                "answer": "Blackjack"
+            },
+            {
+                "pairId": "5",
+                "question": "Tokens used in place of money at casino",
+                "answer": "Chips"
+            },
+            {
+                "pairId": "6",
+                "question": "Side dish consisting of generously sliced potato",
+                "answer": "Wedges"
+            },
+            {
+                "pairId": "7",
+                "question": "Thin, tall heel on a shoe",
+                "answer": "Stilleto"
+            },
+            {
+                "pairId": "8",
+                "question": "Container for raising a small plant",
+                "answer": "Pot"
+            }
+        ]
     }
 ]
