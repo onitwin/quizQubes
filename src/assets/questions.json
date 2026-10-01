@@ -1353,5 +1353,52 @@
                 "answer": "Pot"
             }
         ]
+    },
+    {
+        "date": "987654",
+        "id": "30",
+        "description": "Standard quiz - match the question with its answer - beware, some pairs look correct but there is only one true match!",
+        "questionSet": [
+            {
+                "pairId": "1",
+                "question": "European tree known for its toxicity",
+                "answer": "Yew"
+            },
+            {
+                "pairId": "2",
+                "question": "Female sheep",
+                "answer": "Ewe"
+            },
+            {
+                "pairId": "3",
+                "question": "Second person pronoun to address others",
+                "answer": "You"
+            },
+            {
+                "pairId": "4",
+                "question": "German submarines where known as  '___-Boats'",
+                "answer": "U"
+            },
+            {
+                "pairId": "5",
+                "question": "Scottish term neaning 'small'",
+                "answer": "Wee"
+            },
+            {
+                "pairId": "6",
+                "question": "Nintendo Console",
+                "answer": "Wii"
+            },
+            {
+                "pairId": "7",
+                "question": "First person pronoun for speaker and third parties",
+                "answer": "We"
+            },
+            {
+                "pairId": "8",
+                "question": "Sound of joy or delight",
+                "answer": "Whee"
+            }
+        ]
     }
 ]
