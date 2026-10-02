@@ -1400,5 +1400,52 @@
                 "answer": "Whee"
             }
         ]
+    },
+    {
+        "date": "987654",
+        "id": "31",
+        "description": "Bear with me - wont be able to update for a few weeks so hopefully this tides you over!",
+        "questionSet": [
+            {
+                "pairId": "1",
+                "question": "London station where 'Great Western Main Line' terminates",
+                "answer": "Paddington"
+            },
+            {
+                "pairId": "2",
+                "question": "Practioners of yoga and meditation",
+                "answer": "Yogi"
+            },
+            {
+                "pairId": "3",
+                "question": "Famous character from A.A. Milne",
+                "answer": "Winnie-the-Pooh"
+            },
+            {
+                "pairId": "4",
+                "question": "Relaxed bear from 'The Jungle Book'",
+                "answer": "Baloo"
+            },
+            {
+                "pairId": "5",
+                "question": "British adventurer and TV personality",
+                "answer": "Bear Grylls"
+            },
+            {
+                "pairId": "6",
+                "question": "TV Series where Jeremy Allen White plays a chef",
+                "answer": "The Bear"
+            },
+            {
+                "pairId": "7",
+                "question": "Jack Black character in 'Kung Fu Panda'",
+                "answer": "Po"
+            },
+            {
+                "pairId": "8",
+                "question": "Bear wearing red shirt and yellow scarf",
+                "answer": "Rupert"
+            }
+        ]
     }
 ]
