@@ -1447,5 +1447,52 @@
                 "answer": "Rupert"
             }
         ]
+    },
+    {
+        "date": "987654",
+        "id": "32",
+        "description": "QuizQubes is back! Todays quiz is about things that er, return!",
+        "questionSet": [
+            {
+                "pairId": "1",
+                "question": "Third 'Star Wars' film released",
+                "answer": "Return of the Jedi"
+            },
+            {
+                "pairId": "2",
+                "question": "1996 Mark Morrison song",
+                "answer": "Return of the Mack"
+            },
+            {
+                "pairId": "3",
+                "question": "Final book in 'The Lord of the Rings' series",
+                "answer": "The Return of the King"
+            },
+            {
+                "pairId": "4",
+                "question": "Alternative key to 'Enter' on keyboard",
+                "answer": "Return"
+            },
+            {
+                "pairId": "5",
+                "question": "Opposite of 'Front'",
+                "answer": "Back"
+            },
+            {
+                "pairId": "6",
+                "question": "Final 'Amy Winehouse' album",
+                "answer": "Back to Black"
+            },
+            {
+                "pairId": "7",
+                "question": "Common casino card game",
+                "answer": "Baccarat"
+            },
+            {
+                "pairId": "8",
+                "question": "Pastry dish from Turkey and Greece",
+                "answer": "Baklava"
+            }
+        ]
     }
 ]
