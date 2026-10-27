@@ -1541,5 +1541,52 @@
                 "answer": "Aunt"
             }
         ]
+    },
+    {
+        "date": "457863",
+        "id": "34",
+        "description": "Animal idioms - find the word pairs that make up a well known animal adage! Don't have a cow man! ",
+        "questionSet": [
+            {
+                "pairId": "1",
+                "question": "Dog",
+                "answer": "Eared"
+            },
+            {
+                "pairId": "2",
+                "question": "Crocodile",
+                "answer": "Tears"
+            },
+            {
+                "pairId": "3",
+                "question": "Lion's",
+                "answer": "Share"
+            },
+            {
+                "pairId": "4",
+                "question": "Cold",
+                "answer": "Turkey"
+            },
+            {
+                "pairId": "5",
+                "question": "Pigeon",
+                "answer": "Hole"
+            },
+            {
+                "pairId": "6",
+                "question": "Bug",
+                "answer": "Eyed"
+            },
+            {
+                "pairId": "7",
+                "question": "Busy",
+                "answer": "Bee"
+            },
+            {
+                "pairId": "8",
+                "question": "Early",
+                "answer": "Bird"
+            }
+        ]
     }
 ]
