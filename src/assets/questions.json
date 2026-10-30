@@ -1588,5 +1588,52 @@
                 "answer": "Bird"
             }
         ]
+    },
+    {
+        "date": "783474",
+        "id": "35",
+        "description": "Many movies are based on books and short stories! Are you a cinephile or bookworm? Sometimes the movies update the title from the source material - can you match them up? ",
+        "questionSet": [
+            {
+                "pairId": "1",
+                "question": "Do Androids Dream of Electric Sheep?",
+                "answer": "Blade Runner"
+            },
+            {
+                "pairId": "2",
+                "question": "Schindlers Ark",
+                "answer": "Schindlers List"
+            },
+            {
+                "pairId": "3",
+                "question": "We Can Remember For You Wholesale",
+                "answer": "Total Recall"
+            },
+            {
+                "pairId": "4",
+                "question": "The Body",
+                "answer": "Stand By Me"
+            },
+            {
+                "pairId": "5",
+                "question": "Forbidden Planet",
+                "answer": "The Tempest"
+            },
+            {
+                "pairId": "6",
+                "question": "Shoeless Joe",
+                "answer": "Field of Dreams"
+            },
+            {
+                "pairId": "7",
+                "question": "Wise Guy",
+                "answer": "Goodfellas"
+            },
+            {
+                "pairId": "8",
+                "question": "Heart of Darkness",
+                "answer": "Apocalypse Now"
+            }
+        ]
     }
 ]
