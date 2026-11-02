@@ -1635,5 +1635,52 @@
                 "answer": "Apocalypse Now"
             }
         ]
+    },
+    {
+        "date": "68878007",
+        "id": "36",
+        "description": "Is it a bird? Is it a plane? Match the hero with their secret identity! Beware - some are the 2nd, 3rd or even 4th to use the name! ",
+        "questionSet": [
+            {
+                "pairId": "1",
+                "question": "Superman",
+                "answer": "Kal-El"
+            },
+            {
+                "pairId": "2",
+                "question": "Superboy",
+                "answer": "Kon-El"
+            },
+            {
+                "pairId": "3",
+                "question": "Iron-Man",
+                "answer": "Tony Stark"
+            },
+            {
+                "pairId": "4",
+                "question": "Spider-Man",
+                "answer": "Miles Morales"
+            },
+            {
+                "pairId": "5",
+                "question": "Robin",
+                "answer": "Damian Wayne"
+            },
+            {
+                "pairId": "6",
+                "question": "Ms. Marvel",
+                "answer": "Kamala Khan"
+            },
+            {
+                "pairId": "7",
+                "question": "Bruce Banner",
+                "answer": "The Hulk"
+            },
+            {
+                "pairId": "8",
+                "question": "Barry Allen",
+                "answer": "The Flash"
+            }
+        ]
     }
 ]
