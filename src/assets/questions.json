@@ -49,6 +49,7 @@
     {
         "date": "456",
         "id": "2",
+        "description": "For 30 days we will be revisiting some previous question sets. This is day two -  can you do better than last time? This quiz is for 05/11/26",
         "questionSet": [
             {
                 "pairId": "1",
