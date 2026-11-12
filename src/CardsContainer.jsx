@@ -45,7 +45,7 @@ export const CardsContainer = () => {
   };
 
   //holds the complete array. setQuestionSet is not used for now, but will be once API exists.
-  const [questionSet, setQuestionSet] = useState(data[3].questionSet);
+  const [questionSet, setQuestionSet] = useState(data[4].questionSet);
 
   //below code loops over questions/answers json and returns only the questions
   const questionMap = questionSet.map((q) => {
@@ -80,7 +80,7 @@ export const CardsContainer = () => {
   //UI element rendering - modal is attached to 'body' as parent
   return (
     <>
-      <ReusableModal text={data[3].description} />
+      <ReusableModal text={data[4].description} />
       <main className="cardsWrapper">{combinedCards}</main>
       <h2 className="attemptsDisplay">Attempts:{attempts}</h2>
       <FooterContainer />
