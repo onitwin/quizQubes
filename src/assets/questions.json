@@ -237,6 +237,7 @@
     {
         "date": "321",
         "id": "6",
+        "description": "This is day six of repeat quiz-  can you do better than last time? This quiz is for 16/11/26",
         "questionSet": [
             {
                 "pairId": "1",
@@ -260,7 +261,7 @@
             },
             {
                 "pairId": "5",
-                "question": "Most common numerical result when rolling two dice",
+                "question": "Most common result when rolling two dice",
                 "answer": "7"
             },
             {
