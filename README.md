@@ -1,7 +1,7 @@
 # quizQubes
 Currently running live at https://quizqubes.netlify.app
 
-Database code [work in progess](https://github.com/onitwin/quizqubesExpress)
+Database code [Express server for QuizQubes](https://github.com/onitwin/quizqubesExpress)
 
 ## Purpose
 Simple tile matching quiz app. Each tile hides a question or an answer - Choose two tiles to flip and see if they are a question/answer pairing. If they match, the tiles 'lock' and you can choose another two. If they do not match, they flip back face down. Tiles are randomly placed, and refreshing the page re-shuffles so you can try and beat your score.
