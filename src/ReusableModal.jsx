@@ -1,7 +1,7 @@
 import Modal from "react-modal";
 import { useState } from "react";
 
-export const ReusableModal = ({ text }) => {
+export const ReusableModal = ({ text, title }) => {
   //set modal visibility at lauch
   const [modalIsOpen, setModalIsOpen] = useState(true);
 
@@ -15,13 +15,16 @@ export const ReusableModal = ({ text }) => {
   return (
     <>
       <Modal isOpen={modalIsOpen} className="baseModal">
-        <div className="modalTextWrapper">
-          <h2>{text}</h2>
-        </div>
-        <div className="modalButtonWrap">
-          <button className="modalClose" onClick={updateModalState}>
-            Close
-          </button>
+        <div className="modalBody">
+          <h1>{title}</h1>
+          <div className="modalTextWrapper">
+            <h3>{text}</h3>
+          </div>
+          <div className="modalButtonWrap">
+            <button className="modalClose" onClick={updateModalState}>
+              Close
+            </button>
+          </div>
         </div>
       </Modal>
     </>

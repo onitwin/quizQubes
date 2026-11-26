@@ -1,20 +1,19 @@
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import { Card } from "./Card";
 import { shuffle } from "fast-shuffle";
 import data from "./assets/questions.json";
 import { ReusableModal } from "./ReusableModal";
 import { updateClasses } from "./helperFunctions/handlers";
 import { FooterContainer } from "./FooterContainer";
+import { fetchQuestionsAndQuestionSetByDate } from "./helperFunctions/fetches";
 
 export const CardsContainer = () => {
-  //track the values of the clicked elements
   const submittedAnswers = useRef([]);
-
-  //track the number of attempts made (an attempt being two clicks in default logic)
   const [attempts, setAttempts] = useState(0);
+  const [questionSet, setQuestionSet] = useState(data[12].questionSet);
+  const [description, setDescription] = useState("Loading game....");
+  const [title, setTitle] = useState("Loading Title..");
 
-  //game logic
-  //should be extracted to seperate function to allow other logic models be swopped in and out
   const handleClick = (e) => {
     if (submittedAnswers.current.length <= 1) {
       updateClasses(e, "flipped");
@@ -44,10 +43,17 @@ export const CardsContainer = () => {
     }
   };
 
-  //holds the complete array. setQuestionSet is not used for now, but will be once API exists.
-  const [questionSet, setQuestionSet] = useState(data[12].questionSet);
+  useEffect(() => {
+    const unixDate = Date.now(); // fine here, effects aren't part of render
+    (async () => {
+      const result = await fetchQuestionsAndQuestionSetByDate(unixDate);
+      console.log(result);
+      setTitle(result.title);
+      setDescription(result.description);
+      setQuestionSet(result.Questions);
+    })();
+  }, []);
 
-  //below code loops over questions/answers json and returns only the questions
   const questionMap = questionSet.map((q) => {
     return (
       <Card
@@ -59,7 +65,6 @@ export const CardsContainer = () => {
     );
   });
 
-  //below code loops over questions/answers json and returns only the questions
   const answerMap = questionSet.map((a) => {
     return (
       <Card
@@ -80,7 +85,7 @@ export const CardsContainer = () => {
   //UI element rendering - modal is attached to 'body' as parent
   return (
     <>
-      <ReusableModal text={data[12].description} />
+      <ReusableModal text={description} title={title} />
       <main className="cardsWrapper">{combinedCards}</main>
       <h2 className="attemptsDisplay">Attempts:{attempts}</h2>
       <FooterContainer />
