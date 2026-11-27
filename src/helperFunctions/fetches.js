@@ -1,5 +1,7 @@
+const URL = import.meta.env.VITE_API_URL;
+
 export const fetchById = async (id) => {
-  const url = `http://localhost:3000/questionSet/${id}`;
+  const url = `${URL}/questionSet/${id}`;
   try {
     const response = await fetch(url);
     if (!response.ok) {
@@ -14,7 +16,7 @@ export const fetchById = async (id) => {
 };
 
 export const fetchQuestionSetByDate = async (unixDate) => {
-  const url = `http://localhost:3000/questionSet/date/${unixDate}`;
+  const url = `${URL}/questionSet/date/${unixDate}`;
   try {
     const response = await fetch(url);
     if (!response.ok) {
@@ -29,7 +31,7 @@ export const fetchQuestionSetByDate = async (unixDate) => {
 };
 
 export const fetchQuestionsAndQuestionSetByDate = async (unixDate) => {
-  const url = `http://localhost:3000/questionSet/questions/${unixDate}`;
+  const url = `${URL}/questionSet/questions/${unixDate}`;
   try {
     const response = await fetch(url);
     if (!response.ok) {

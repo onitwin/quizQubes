@@ -47,7 +47,6 @@ export const CardsContainer = () => {
     const unixDate = Date.now(); // fine here, effects aren't part of render
     (async () => {
       const result = await fetchQuestionsAndQuestionSetByDate(unixDate);
-      console.log(result);
       setTitle(result.title);
       setDescription(result.description);
       setQuestionSet(result.Questions);
